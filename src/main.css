@@ -1,0 +1,114 @@
+/* 全局樣式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* 標題樣式 */
+  h2.title {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  /* 表單樣式 */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #2c3e50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #34495e;
+  }
+  
+  /* 選項樣式 */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .options label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bubble {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .study {
+    background-color: #3498db;
+  }
+  
+  .personal {
+    background-color: #e67e22;
+  }
+
+  .sport {
+    background-color: #22e663;
+  }
+  
+  /* Todo項目樣式 */
+  .todo-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-item.done .todo-content input {
+    text-decoration: line-through;
+    color: #bbb;
+  }
+  
+  .todo-content input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .actions button {
+    background-color: transparent;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .actions button:hover {
+    color: #c0392b;
+  }
