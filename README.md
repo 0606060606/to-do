@@ -17,7 +17,7 @@
 # 運行
 1.npm run dev  
 2.把終端機輸出的網址如(http://localhost:3000) 複製到瀏覽器  
-![image text](螢幕擷取畫面 2024-05-25 194105.png](https://github.com/0606060606/to-do/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-05-25%20194105.png)
+![image text](https://github.com/0606060606/to-do-list/blob/master/how%20to%20run.png)
 
 
 # Vue 3 + Vite
